@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 10963480347799580}
   m_Layer: 0
   m_Name: TorchicF
-  m_TagString: Untagged
+  m_TagString: Pokemon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1268,7 +1268,7 @@ SkinnedMeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4577594817171744376}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1883,9 +1883,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7412875994586413637}
   - component: {fileID: 5778518238856400480}
+  - component: {fileID: 883945366}
   m_Layer: 0
   m_Name: TorchicF_MouthClosed
-  m_TagString: Untagged
+  m_TagString: Pokemon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1955,6 +1956,19 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.11662441, y: -0.00000040978193, z: 0.2568853}
     m_Extent: {x: 0.04632581, y: 0.08317154, z: 0.04088497}
   m_DirtyAABB: 0
+--- !u!135 &883945366
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6055833101839026283}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.06
+  m_Center: {x: 0.00000052892045, y: -0.2705444, z: 0.47061002}
 --- !u!1 &6062686375335948497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2554,9 +2568,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4997948803821571558}
   - component: {fileID: 3158787184669696156}
+  - component: {fileID: 1641834974}
+  - component: {fileID: 1641834975}
   m_Layer: 0
-  m_Name: TorchicF
-  m_TagString: Untagged
+  m_Name: Torchic
+  m_TagString: Pokemon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2598,6 +2614,41 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1641834974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8288626814042603509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c57308614c4e3a641b83db450a62fc5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+--- !u!195 &1641834975
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8288626814042603509}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &8296341161985335408
 GameObject:
   m_ObjectHideFlags: 0
