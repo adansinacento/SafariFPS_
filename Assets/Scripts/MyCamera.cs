@@ -6,14 +6,17 @@ using UnityEngine;
 public class MyCamera : MonoBehaviour
 {
     public int FileCounter = 0;
+    public int PhotosLeft = 15;
 
     private void Awake()
     {
         FileCounter = PlayerPrefs.HasKey("photos") ? PlayerPrefs.GetInt("photos") : 0;
     }
 
-    public void CamCapture(Camera _Cam)
+    public bool CamCapture(Camera _Cam)
     {
+        if (PhotosLeft < 1) return false;
+
         Camera Cam = GetComponent<Camera>();
         Cam.fieldOfView = _Cam.fieldOfView;
         Cam.transform.rotation = _Cam.transform.rotation;
@@ -36,5 +39,9 @@ public class MyCamera : MonoBehaviour
 
         PlayerPrefs.SetInt("photos", FileCounter);
         PlayerPrefs.Save();
+
+        PhotosLeft--;
+
+        return true;
     }
 }

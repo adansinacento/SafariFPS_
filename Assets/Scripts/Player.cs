@@ -7,7 +7,9 @@ using UnityStandardAssets.Characters.FirstPerson;
 public class Player : MonoBehaviour
 {
     [SerializeField]
-    Image filter, target;
+    Image filter, target, indicator, imgBG;
+    [SerializeField]
+    Text PhotosLeft_Text;
     Camera cam;
     [SerializeField]
     float fov_og, fov_zoomed;
@@ -34,6 +36,8 @@ public class Player : MonoBehaviour
         {
             m_PhotograficCam = GetComponent<MyCamera>();
         }
+
+        PhotosLeft_Text.text = m_PhotograficCam.PhotosLeft.ToString();
     }
 
     // Update is called once per frame
@@ -63,9 +67,28 @@ public class Player : MonoBehaviour
                 //foto
                 if (Input.GetMouseButtonDown(0))
                 {
-                    m_PhotograficCam.CamCapture(cam);
+                    if (m_PhotograficCam.CamCapture(cam))
+                        StartCoroutine("FlashAnimation");
+                    else
+                        StartCoroutine("NoRollLeftAnimation");
+
+                    PhotosLeft_Text.text = m_PhotograficCam.PhotosLeft.ToString();
                 }
             }
         }
+    }
+
+    IEnumerator NoRollLeftAnimation()
+    {
+        imgBG.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        imgBG.color = Color.white;
+    }
+
+    IEnumerator FlashAnimation()
+    {
+        indicator.enabled = true;
+        yield return new WaitForSeconds(0.1f);
+        indicator.enabled = false;
     }
 }
