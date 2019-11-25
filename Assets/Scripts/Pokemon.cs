@@ -8,6 +8,8 @@ public class Pokemon : MonoBehaviour
 {
     NavMeshAgent agent;
     public Transform target;
+    Animator anim;
+
     void Start()
     {
         if (agent == null)
@@ -15,11 +17,31 @@ public class Pokemon : MonoBehaviour
             agent = GetComponent<NavMeshAgent>();
         }
 
+        if (anim == null)
+        {
+            anim = GetComponent<Animator>();
+        }
+
         agent.speed = 1.5f;
     }
 
-    // Update is called once per frame
-    void Update()
+    public NavMeshAgent GetAgentInstance()
+    {
+        if (agent == null)
+        {
+            agent = GetComponent<NavMeshAgent>();
+        }
+
+        return agent;
+    }
+
+    public void IsTargetClose()
+    {
+        var distance = Vector3.Distance(transform.position, target.position);
+            anim.SetFloat("EnemyDistance", distance);
+    }
+
+    public void GoToTarget()
     {
         agent.SetDestination(target.position);
     }
