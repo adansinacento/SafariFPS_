@@ -9,6 +9,8 @@ public class Pokemon : MonoBehaviour
     NavMeshAgent agent;
     public Transform target;
     Animator anim;
+    public Transform SpawnPoint;
+    public GameObject ProyectilePrefab;
 
     void Start()
     {
