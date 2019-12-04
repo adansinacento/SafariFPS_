@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityStandardAssets.Characters.FirstPerson;
 
 [RequireComponent(typeof(NavMeshAgent))]
 public class Pokemon : MonoBehaviour
@@ -24,6 +25,11 @@ public class Pokemon : MonoBehaviour
             anim = GetComponent<Animator>();
         }
 
+        if (target == null)
+        {
+            target = FindObjectOfType<FirstPersonController>().transform;
+        }
+
         agent.speed = 1.5f;
     }
 
@@ -37,10 +43,15 @@ public class Pokemon : MonoBehaviour
         return agent;
     }
 
+    public void Shoot()
+    {
+        Instantiate(ProyectilePrefab, SpawnPoint.position, SpawnPoint.rotation);
+    }
+
     public void IsTargetClose()
     {
         var distance = Vector3.Distance(transform.position, target.position);
-            anim.SetFloat("EnemyDistance", distance);
+        anim.SetFloat("EnemyDistance", distance);
     }
 
     public void GoToTarget()

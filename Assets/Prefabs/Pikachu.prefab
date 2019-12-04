@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &823148202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 823148203}
+  m_Layer: 0
+  m_Name: SpawnP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &823148203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823148202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.93, z: 0.475}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 90006895660290234}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &18312677160633955
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,10 +763,10 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8662524793913630059, guid: 7d42f13a46296324a9d2be8d52078d58, type: 3}
-  - {fileID: 5290414818648310135, guid: 7d42f13a46296324a9d2be8d52078d58, type: 3}
-  - {fileID: 2268340284772520465, guid: 7d42f13a46296324a9d2be8d52078d58, type: 3}
-  - {fileID: 6495095659774500520, guid: 7d42f13a46296324a9d2be8d52078d58, type: 3}
+  - {fileID: 2100000, guid: 79b33f36b679ee9459c7164684fa9552, type: 2}
+  - {fileID: 2100000, guid: 86ef0d40842d76340af9624bc5504254, type: 2}
+  - {fileID: 2100000, guid: 148b900e4020193478bef45f6cac5229, type: 2}
+  - {fileID: 2100000, guid: 530413639c6acd04b9da0f7c2f2a0e89, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1185,6 +1215,7 @@ Transform:
   - {fileID: 8135228211237858776}
   - {fileID: 5877016601117234908}
   - {fileID: 2685177260395501959}
+  - {fileID: 823148203}
   m_Father: {fileID: 6468907287315771669}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1576,7 +1607,7 @@ Animator:
   m_GameObject: {fileID: 8042713425663656710}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 7d42f13a46296324a9d2be8d52078d58, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f6fe572a46ed4e541b989ec9bd64695e, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1598,6 +1629,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  SpawnPoint: {fileID: 823148203}
+  ProyectilePrefab: {fileID: 2677057324953472682, guid: 22e88fa7f8466a8478e948b91276a4d9,
+    type: 3}
 --- !u!195 &707454593
 NavMeshAgent:
   m_ObjectHideFlags: 0

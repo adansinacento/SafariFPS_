@@ -10,11 +10,12 @@ public class ChaseBehaviour : StateMachineBehaviour
     public override void OnStateEnter(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
         AssociatedP = animator.gameObject.GetComponent<Pokemon>();
-        AssociatedP.GoToTarget();
+        
     }
 
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
     {
+        AssociatedP.GoToTarget();
         AssociatedP.IsTargetClose();
     }
 }

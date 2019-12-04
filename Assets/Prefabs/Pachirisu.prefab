@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &479040281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 479040282}
+  m_Layer: 0
+  m_Name: SpawnP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &479040282
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479040281}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.46, z: 0.35}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7322694012508917374}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &223155386519441712
 GameObject:
   m_ObjectHideFlags: 0
@@ -45,7 +75,7 @@ Animator:
   m_GameObject: {fileID: 223155386519441712}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 1a72633e854441f4ca3cb06f90bad817, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d49eaceed9f3122439141c43e5b39ff6, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -67,6 +97,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  SpawnPoint: {fileID: 479040282}
+  ProyectilePrefab: {fileID: 2677057324953472682, guid: 22e88fa7f8466a8478e948b91276a4d9,
+    type: 3}
 --- !u!195 &181250064
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -144,16 +177,17 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410640082253506824}
-  m_LocalRotation: {x: -0.00000015695824, y: 0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2045647359527354350}
   - {fileID: 6391721190026332784}
   - {fileID: 5315956089782717361}
+  - {fileID: 479040282}
   m_Father: {fileID: 3838077869110731555}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
 --- !u!1 &674363154053336268
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,9 +852,9 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2797025741094536928, guid: 1a72633e854441f4ca3cb06f90bad817, type: 3}
-  - {fileID: 1680213207503429607, guid: 1a72633e854441f4ca3cb06f90bad817, type: 3}
-  - {fileID: 6959854345570979556, guid: 1a72633e854441f4ca3cb06f90bad817, type: 3}
+  - {fileID: 2100000, guid: 5683915ddf35e0248a1d835470b5d7ab, type: 2}
+  - {fileID: 2100000, guid: 2fe5859a5d422f442bee28c24aa3dab6, type: 2}
+  - {fileID: 2100000, guid: 1922961052aabee45bf80207c037724d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
