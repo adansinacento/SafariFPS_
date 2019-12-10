@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 436758716}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SpawnP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4366710213176106850}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pm0599_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5238807538018977481}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3145289818417552945}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndHeadA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,7 +135,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5219646263017207513}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Origin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166,7 +166,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9000748100417297438}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HeadB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 9022899839890666457}
   - component: {fileID: 3183521585820490975}
   - component: {fileID: 2609082002993536253}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pm0599_001
   m_TagString: Pokemon
   m_Icon: {fileID: 0}
@@ -297,7 +297,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2214398102552926131}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HeadA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 1136566601981921134}
   - component: {fileID: 2070935655}
   - component: {fileID: 2070935656}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Klink
   m_TagString: Pokemon
   m_Icon: {fileID: 0}
@@ -389,6 +389,7 @@ MonoBehaviour:
   SpawnPoint: {fileID: 436758716}
   ProyectilePrefab: {fileID: 2677057324953472682, guid: 22e88fa7f8466a8478e948b91276a4d9,
     type: 3}
+  PokemonName: Klink
 --- !u!195 &2070935656
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -420,7 +421,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6457808389730585619}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pm0599_00_Skin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -450,7 +451,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5278704314284830435}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndHeadB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -480,7 +481,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 526390526819230434}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndWaist
   m_TagString: Untagged
   m_Icon: {fileID: 0}

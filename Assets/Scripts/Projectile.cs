@@ -18,6 +18,11 @@ public class Projectile : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        if (collision.collider.gameObject.name == "FPSController")
+        {
+            collision.collider.gameObject.GetComponent<Player>().Damage();
+            
+        }
         Destroy(gameObject);
     }
 }

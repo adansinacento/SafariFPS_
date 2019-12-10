@@ -7,10 +7,22 @@ public class MyCamera : MonoBehaviour
 {
     public int FileCounter = 0;
     public int PhotosLeft = 15;
+    string path;
+
 
     private void Awake()
     {
+        if (StaticManager.myCamera == null)
+            StaticManager.myCamera = this;
+
+        path = Application.dataPath + "/Backgrounds/";
         FileCounter = PlayerPrefs.HasKey("photos") ? PlayerPrefs.GetInt("photos") : 0;
+        
+        // si no existe el directorio lo creamos
+        if (!Directory.Exists(path))
+        {
+            Directory.CreateDirectory(path);
+        }
     }
 
     public bool CamCapture(Camera _Cam)
@@ -34,7 +46,7 @@ public class MyCamera : MonoBehaviour
         var Bytes = Image.EncodeToPNG();
         Destroy(Image);
 
-        File.WriteAllBytes(Application.dataPath + "/Backgrounds/" + FileCounter + ".png", Bytes);
+        File.WriteAllBytes(path + FileCounter + ".png", Bytes);
         FileCounter++;
 
         PlayerPrefs.SetInt("photos", FileCounter);
@@ -43,5 +55,36 @@ public class MyCamera : MonoBehaviour
         PhotosLeft--;
 
         return true;
+    }
+
+    public void Ammo(int n)
+    {
+        PhotosLeft += n;
+
+        if (PhotosLeft >= 100)
+            PhotosLeft = 100;
+
+        if (PhotosLeft <= 0)
+            PhotosLeft = 0;
+    }
+
+    public List<FileInfo> PhotoCount()
+    {
+        DirectoryInfo d = new DirectoryInfo(path);
+        // Add file sizes.
+        FileInfo[] fis = d.GetFiles();
+        List<FileInfo> r = new List<FileInfo>();
+        foreach (FileInfo fi in fis)
+        {
+            if (fi.Extension.Contains("png"))
+                r.Add(fi);
+        }
+        return r;
+    }
+
+    public byte[] GetImage(string path)
+    {
+        byte[] bytes = File.ReadAllBytes(path);
+        return bytes;
     }
 }

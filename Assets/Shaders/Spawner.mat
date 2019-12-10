@@ -29,6 +29,6 @@ Material:
     - _RimThreshold: 0.1
     m_Colors:
     - _AmbientColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
-    - _Color: {r: 0.5019608, g: 0.61305624, b: 1, a: 1}
+    - _Color: {r: 1, g: 0.15566039, b: 0.2300519, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecularColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}

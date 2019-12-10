@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 823148203}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SpawnP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7814779567219529295}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pm0025_01_SippoSkin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3318190602003040311}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RToe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 438531016420861833}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6878624113122552260}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LToe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,7 +163,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2685177260395501959}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VriVis01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +194,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2208565874119553146}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndTail3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,7 +224,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5534604804242298481}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -255,7 +255,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3758342045234534923}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Feeler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -286,7 +286,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 317960833599201417}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +317,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1519480045395267320}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndRFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +347,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7318295131274345488}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndLEar3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -378,7 +378,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 248674006317593424}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndRHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -409,7 +409,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4384633863605239122}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LEar2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,7 +440,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8649478858347167990}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -472,7 +472,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1065758963803929650}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -503,7 +503,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8135228211237858776}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Origin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -534,7 +534,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8677206478533869595}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -566,7 +566,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8583125296786826116}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -597,7 +597,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7530340767674082167}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -628,7 +628,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5061967707667019888}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: REar3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -660,7 +660,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8086830887624695240}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -692,7 +692,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7052820647165336212}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LEar1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -725,7 +725,7 @@ GameObject:
   - component: {fileID: 3313482277049527439}
   - component: {fileID: 8724910111819966699}
   - component: {fileID: 2070697233149914930}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PikachuF
   m_TagString: Pokemon
   m_Icon: {fileID: 0}
@@ -851,7 +851,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2543110865225531950}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -883,7 +883,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6180914710898927989}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndRToe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -913,7 +913,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6672370384605603553}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndFeeler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -943,7 +943,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8940288059013785231}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndHead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -973,7 +973,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1643410601298906594}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tail3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1004,7 +1004,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 624607357835360358}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tail1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1035,7 +1035,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 452840298323762828}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: REar2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1067,7 +1067,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3964946355727187655}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1100,7 +1100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6043165294242884920}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1131,7 +1131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3426731924526384616}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1162,7 +1162,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6171233709400590425}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LEar3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1194,7 +1194,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 90006895660290234}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pm0025_00_pikachu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1228,7 +1228,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9069776879220798907}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndLHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1259,7 +1259,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2342444299474742901}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1294,7 +1294,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5625376506859686451}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1325,7 +1325,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5475857644248580082}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LThigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1356,7 +1356,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7898600320982964790}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndREar3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1386,7 +1386,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5877016601117234908}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pm0025_00_BodySkin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1416,7 +1416,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 796504932566362536}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1449,7 +1449,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4124676460533870581}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndLToe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1479,7 +1479,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4841276508848633570}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndLFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1509,7 +1509,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4765243012352426933}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tail2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1540,7 +1540,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5867508074536233429}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: REar1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1574,7 +1574,7 @@ GameObject:
   - component: {fileID: 3984611614320024687}
   - component: {fileID: 707454592}
   - component: {fileID: 707454593}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pikachu
   m_TagString: Pokemon
   m_Icon: {fileID: 0}
@@ -1632,6 +1632,7 @@ MonoBehaviour:
   SpawnPoint: {fileID: 823148203}
   ProyectilePrefab: {fileID: 2677057324953472682, guid: 22e88fa7f8466a8478e948b91276a4d9,
     type: 3}
+  PokemonName: Pikachu
 --- !u!195 &707454593
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1663,7 +1664,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3854047436969280577}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RThigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1694,7 +1695,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 921314831605334450}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1726,7 +1727,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 486015786666437510}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndHips
   m_TagString: Untagged
   m_Icon: {fileID: 0}

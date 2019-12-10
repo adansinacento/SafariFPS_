@@ -12,6 +12,7 @@ public class Pokemon : MonoBehaviour
     Animator anim;
     public Transform SpawnPoint;
     public GameObject ProyectilePrefab;
+    public string PokemonName;
 
     void Start()
     {

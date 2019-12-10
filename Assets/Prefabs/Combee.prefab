@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 125815335}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SpawnP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4148384270589341218}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mesh1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9222464299624831836}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LFeelerA3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1211661927681136339}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LFeelerA2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2499595098770467259}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndHeadB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,7 +162,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5537570312353607205}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LTailA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -193,7 +193,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2450371738712919674}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mesh2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -223,7 +223,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8942974753021291626}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndLFeeler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6599603086844134661}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LFeeler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -285,7 +285,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6101149988555433041}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndHeadC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -315,7 +315,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7836259510647875002}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndWaist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -345,7 +345,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6777438575113749506}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndRTailA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -376,7 +376,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5395500799990856041}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndTail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,7 +406,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8041935933867275863}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndLFeelerA3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -436,7 +436,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8451847695906558187}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HeadA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -468,7 +468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4303691061923039123}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pm0415_00_mitsuhoney
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -505,7 +505,7 @@ GameObject:
   - component: {fileID: 7220401230260273206}
   - component: {fileID: 814709020}
   - component: {fileID: 814709021}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Combee
   m_TagString: Pokemon
   m_Icon: {fileID: 0}
@@ -568,6 +568,7 @@ MonoBehaviour:
   SpawnPoint: {fileID: 125815335}
   ProyectilePrefab: {fileID: 2677057324953472682, guid: 22e88fa7f8466a8478e948b91276a4d9,
     type: 3}
+  PokemonName: Combee
 --- !u!195 &814709021
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -599,7 +600,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4937613155824530381}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndRFeelerA3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,7 +631,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4769340121922088783}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HeadC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -661,7 +662,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1664349790720531270}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HeadB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -694,7 +695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7532285988089301484}
   - component: {fileID: 5829424361724567467}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 0001_pm0415_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -779,7 +780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3864867714003114601}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RFeelerA2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -810,7 +811,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8800043451204613385}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndLTailA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -840,7 +841,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2571846731518493719}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RFeelerA3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -871,7 +872,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8519546000288859614}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VriVis01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -903,7 +904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7251321916193124865}
   - component: {fileID: 5406597810274693717}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 0002_pm0415_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -988,7 +989,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5299790955506775646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LFeelerA1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1019,7 +1020,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5084767677703842369}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RTailA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1050,7 +1051,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4475600630392979703}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mesh0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1080,7 +1081,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5506397445095354717}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RFeelerA1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1111,7 +1112,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 682254580312329328}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndRFeeler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1142,7 +1143,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5299713303643121975}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pm0415_01_BodySkin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1174,7 +1175,7 @@ GameObject:
   - component: {fileID: 7105208459327830091}
   - component: {fileID: 7790136063733292529}
   - component: {fileID: 5747916554121411484}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 0000_pm0415_01
   m_TagString: Pokemon
   m_Icon: {fileID: 0}
@@ -1284,7 +1285,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6419158144721984811}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pm0415_00_WingSkin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1314,7 +1315,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2566499263942259073}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Origin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1345,7 +1346,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3747771182189635270}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1376,7 +1377,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 388782375343406211}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RFeeler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1407,7 +1408,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4636369541116451177}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EndHeadA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1437,7 +1438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2540622103196139921}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waist
   m_TagString: Untagged
   m_Icon: {fileID: 0}

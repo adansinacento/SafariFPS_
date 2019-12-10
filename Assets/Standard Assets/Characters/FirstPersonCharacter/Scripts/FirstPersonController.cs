@@ -23,6 +23,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private float m_StepInterval;
         [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
+        bool isPaused;
 
         private Camera m_Camera;
         private float m_YRotation;
@@ -50,6 +51,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
 			m_MouseLook.Init(transform , m_Camera.transform);
         }
 
+        public void SetCursor(bool show)
+        {
+            Cursor.visible = show;
+            Cursor.lockState = show ? CursorLockMode.Confined : CursorLockMode.Locked;
+            isPaused = show;
+            m_MouseLook.SetCursorLock(!show);
+        }
+
         public void AdjustMouseSensitivity(bool reduce)
         {
             m_MouseLook.XSensitivity = reduce ? 0.3f : 2;
@@ -60,6 +69,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         // Update is called once per frame
         private void Update()
         {
+            if (isPaused) return;
+
             RotateView();
 
             if (!m_PreviouslyGrounded && m_CharacterController.isGrounded)
@@ -86,6 +97,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void FixedUpdate()
         {
+            if (isPaused) return;
+
             float speed;
             GetInput(out speed);
             // always move along the camera forward as it is the direction that it being aimed at

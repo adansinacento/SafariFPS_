@@ -22,6 +22,9 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        if (StaticManager.player == null)
+            StaticManager.player = this;
+
         if (cam == null)
         {
             cam = GetComponentsInChildren<Camera>()[0];
@@ -38,6 +41,19 @@ public class Player : MonoBehaviour
         }
 
         PhotosLeft_Text.text = m_PhotograficCam.PhotosLeft.ToString();
+
+
+    }
+
+    internal void Damage()
+    {
+        m_PhotograficCam.Ammo(-5);
+        PhotosLeft_Text.text = m_PhotograficCam.PhotosLeft.ToString();
+    }
+
+    public void Pause(bool isPaused)
+    {
+        fpc.SetCursor(isPaused);
     }
 
     // Update is called once per frame
@@ -58,6 +74,7 @@ public class Player : MonoBehaviour
             Debug.DrawRay(cam.transform.position, cam.transform.forward, Color.red);
             if (Physics.Raycast(cam.transform.position, cam.transform.forward, out RaycastHit hit))
             {
+                
                 //pokemon centrado
                 if (hit.collider.gameObject.CompareTag("Pokemon"))
                 {
@@ -67,8 +84,11 @@ public class Player : MonoBehaviour
                 //foto
                 if (Input.GetMouseButtonDown(0))
                 {
-                    if (m_PhotograficCam.CamCapture(cam))
-                        StartCoroutine("FlashAnimation");
+                    if (StaticManager.gameManager.IsPaused) return;
+                    if (m_PhotograficCam.CamCapture(cam)) // si sí hay rollo
+                    {
+                        StartCoroutine("FlashAnimation", hit);
+                    } 
                     else
                         StartCoroutine("NoRollLeftAnimation");
 
@@ -85,10 +105,22 @@ public class Player : MonoBehaviour
         imgBG.color = Color.white;
     }
 
-    IEnumerator FlashAnimation()
+    IEnumerator FlashAnimation(RaycastHit p)
     {
         indicator.enabled = true;
+
+        if (p.collider.gameObject.CompareTag("Pokemon"))
+        {
+            m_PhotograficCam.Ammo(Random.Range(3, 11)); //Si destruyes a uno, reload
+
+            //que ridicula es esta llamada
+            StaticManager.spawner.NotifyKill(p.collider.gameObject.transform.parent.gameObject.GetComponent<Pokemon>().PokemonName);
+            Destroy(p.collider.gameObject.transform.parent.gameObject);
+        }
+
         yield return new WaitForSeconds(0.1f);
         indicator.enabled = false;
+
+        
     }
 }
